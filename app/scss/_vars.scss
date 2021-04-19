@@ -1,0 +1,15 @@
+$defaultColor: #000;
+$white: #fff;
+
+@mixin heading {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+%mobilepadding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@mixin desktoppadding {
+  padding-left: 200px;
+  padding-right: 200px;
+}
